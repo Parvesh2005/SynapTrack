@@ -57,7 +57,7 @@ Follow these steps to get SynapTrack running on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/SynapTrack.git](https://github.com/YOUR_USERNAME/SynapTrack.git) # Replace with your repo URL
+    git clone https://github.com/Parvesh2005/SynapTrack
     cd SynapTrack/backend
     ```
 
@@ -69,7 +69,7 @@ Follow these steps to get SynapTrack running on your local machine.
 3.  **Create a `.env` file:**
     In the `backend` directory, create a file named `.env` and add your environment variables:
     ```env
-    MONGO_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER_NAME.mongodb.net/synaptrack?retryWrites=true&w=majority
+    MONGO_URI=YOUR_MONGO_URI
     JWT_SECRET=your_super_secret_jwt_key_here # Use a strong, random string
     GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
     ```
