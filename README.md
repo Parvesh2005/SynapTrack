@@ -46,6 +46,30 @@ SynapTrack is an innovative, full-stack productivity web application designed to
 
 Follow these steps to get SynapTrack running on your local machine.
 
+## 📁 Project Structure
+
+```
+SynapTrack/
+├── backend/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.js
+│   ├── index.html
+│   ├── index.js
+│   ├── index.css
+│   ├── tailwind.config.js
+│   └── postcss.config.cjs
+└── README.md
+```
+
 ### Prerequisites
 
 * Node.js (v18 or higher recommended)
